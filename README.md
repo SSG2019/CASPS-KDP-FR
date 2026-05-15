@@ -6,7 +6,7 @@ This repository provides the public implementation of the core algorithms propos
 
 Overall framework of the proposed privacy-aware digital ToSC system. Alice, Bob, and Eve denote the semantic transmitter, the legitimate receiver,and the passive eavesdropper, respectively. Alice maps the source sample x to discrete semantic indices through the semantic encoder and VQ codebook,while CASPS shapes their activation distribution toward a Gaussian target before modulation. KDP-FR then protects the transmitted semantic symbols through key-conditioned perturbation; Bob performs fingerprint-assisted recovery, whereas Eve conducts fingerprint-blind inference from the intercepted signal.
 
-![System model](main.svg)
+![System model](main.png)
 
 ## Released Files
 
